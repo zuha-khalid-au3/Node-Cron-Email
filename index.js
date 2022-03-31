@@ -5,9 +5,9 @@ const Bree = require('bree');
 
 const bree = new Bree({
     jobs:[{
-        name:'mailer',
+        name:'mailer', // used to define the jobs to track it works as worker underhood
         interval: '5s',
-        // cron: '* * * * *',
+        // cron: '* * * * *', // can be used to schedule cron
         // worker: {
         //     workerData: {
         //         name: 'Zuha'
