@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "bree": "^8.0.2",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "nodemailer": "^6.7.3"
   }
 }

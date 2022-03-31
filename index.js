@@ -5,13 +5,14 @@ const Bree = require('bree');
 
 const bree = new Bree({
     jobs:[{
-        name:'Dummy',
-        cron: '* * * * *',
-        worker: {
-            workerData: {
-                name: 'Zuha'
-            }
-        }
+        name:'mailer',
+        interval: '5s',
+        // cron: '* * * * *',
+        // worker: {
+        //     workerData: {
+        //         name: 'Zuha'
+        //     }
+        // }
     }]
 });
 
